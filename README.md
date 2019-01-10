@@ -15,6 +15,9 @@ JUnit Tests conducted include:
 - Instrumental ( using device - saved in the folder /androidTest )
 - Local Tests (using the JVM - stored in the folder /test)
 
+## Contributor
+- Merai S. Syed [workera.apps@gmail.com]
+
 ## License
 
 Licensed under the [MIT License](LICENSE)

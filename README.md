@@ -1,4 +1,7 @@
 # starwars
+
+Version 1.0.0
+
 This is a two screen app that gets data from the SWAPI and displays the characters in form of a list. 
 
 When the user clicks on a Star Wars character, the detail screen opens up to reveal 4 key characteristics:
@@ -11,3 +14,7 @@ When the user clicks on a Star Wars character, the detail screen opens up to rev
 JUnit Tests conducted include:
 - Instrumental ( using device - saved in the folder /androidTest )
 - Local Tests (using the JVM - stored in the folder /test)
+
+## License
+
+Licensed under the [MIT License](LICENSE)

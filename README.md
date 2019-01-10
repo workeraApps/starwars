@@ -16,7 +16,7 @@ JUnit Tests conducted include:
 - Local Tests (using the JVM - stored in the folder /test)
 
 ## Contributor
-- Merai S. Syed [workera.apps@gmail.com]
+- Merai S. Syed workera.apps@gmail.com
 
 ## License
 

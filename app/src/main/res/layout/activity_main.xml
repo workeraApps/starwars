@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor">
+
+    <ListView
+        android:id="@+id/starwar_list"
+        android:orientation="vertical"
+        android:padding= "16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:dividerHeight="0dp"/>
+
+    <!-- Empty view is only visible when the list has no characters. -->
+    <Button
+        android:id="@+id/empty_button_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/try_again"
+        android:textColor="@color/colorPrimary"
+        android:layout_centerInParent="true"
+        android:background="@drawable/ic_button"
+        android:visibility="invisible"
+        android:textAppearance="?android:textAppearanceMedium"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/empty_view"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@id/empty_button_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+       />
+
+    <!-- Loading indicator is only shown before the first load-->
+    <ProgressBar
+        android:id="@+id/loading_indicator"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

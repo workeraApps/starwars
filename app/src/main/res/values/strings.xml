@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Star Wars</string>
+    <string name="character">Character</string>
+    <string name="namelabel">Name</string>
+    <string name="masslabel">Mass</string>
+    <string name="heightlabel">Height</string>
+    <string name="datelabel">Date</string>
+    <string name="no_data">No Characters Found</string>
+    <string name="no_internet">No Internet Connection Found</string>
+    <string name="try_again">Try Again</string>
+    <string name="massunit">kg</string>
+    <string name="heightunit">m</string>
+    <string name="character_detail">Good To Know</string>
+</resources>
